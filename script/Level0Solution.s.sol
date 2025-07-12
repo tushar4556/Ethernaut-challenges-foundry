@@ -5,9 +5,8 @@ import "../src/Level0.sol";
 import {Script} from "forge-std/Script.sol";
 import {console} from "forge-std/console.sol";
 
-contract Level0Solution is Script{
-
-    Level0 public level0; 
+contract Level0Solution is Script {
+    Level0 public level0;
 
     function run() external {
         level0 = Level0(0x21DA1eD8419a0Cc7D68ab23637172fD6b4407b39);
@@ -17,5 +16,4 @@ contract Level0Solution is Script{
         level0.authenticate(password);
         vm.stopBroadcast();
     }
-
 }

@@ -4,7 +4,6 @@ pragma solidity ^0.6.0;
 import "../src/Fallout.sol";
 import {Script} from "forge-std/Script.sol";
 
-
 contract ClaimOwnership is Script {
     function run() public {
         vm.startBroadcast(vm.envUint("MY_PRIVATE_KEY"));
