@@ -1,6 +1,5 @@
 //SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
-
+pragma solidity ^0.8.20;
 contract Level0 {
     string public password;
     uint8 public infoNum = 42;

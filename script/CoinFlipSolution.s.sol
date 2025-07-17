@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
 
 import "../src/CoinFlip.sol";
 import {Script, console2} from "forge-std/Script.sol";

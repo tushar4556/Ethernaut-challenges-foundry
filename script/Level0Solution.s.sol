@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
 
 import "../src/Level0.sol";
 import {Script} from "forge-std/Script.sol";
